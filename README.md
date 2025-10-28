@@ -18,7 +18,11 @@ import matplotlib.pyplot as plt
 
 # 画像を読み込む（Pillow使用）
 ```phython
+
+from PIL import Image
+
 img = Image.open(r'c:\Users\asami\OneDrive\画像\カメラ ロール\image.webp')
+img.show()
 ```
 # matplotlibで表示
 plt.imshow(img)
