@@ -20,8 +20,7 @@ import matplotlib.pyplot as plt
 
 from PIL import Image
 
-img = Image.open(r'c:\Users\asami\OneDrive\画像\カメラ ロール\image.webp')
-img.show()
+![自分の写真](r'c:\Users\asami\OneDrive\画像\カメラ ロール\image.webp')
 ```
 # matplotlibで表示
 plt.imshow(img)
